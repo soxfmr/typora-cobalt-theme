@@ -1021,3 +1021,115 @@ input {
 #write>p:only-child:empty::before {
     opacity: 1;
 }
+
+.dropdown-menu > li > a {
+    color: var(--control-text-color);
+}
+
+#top-titlebar, #top-titlebar * {
+    color: var(--control-text-color);
+}
+.megamenu-menu {
+    background-color: #141b28;
+}
+.megamenu-content {
+    background-color: #141b28;
+    background: #141b28;
+}
+.megamenu-menu-panel h1,
+.megamenu-menu-panel h2 {
+    color: white;
+}
+.megamenu-menu-list {
+    background-color: #141b28 !important;
+}
+
+.long-btn {
+    color: var(--control-text-color);
+    border: 1px solid var(--control-text-color);
+}
+.long-btn:hover {
+    background-color: #090c11 !important;
+    color: #f4c25e !important;
+    border: 1px solid #f4c25e;
+}
+
+.megamenu-menu-panel table td {
+    color: var(--control-text-color);
+}
+
+.megamenu-menu-panel tbody tr:hover td {
+    background-color: #090c11;
+}
+
+#recent-document-table tbody:empty:before {
+    color: var(--control-text-color);
+}
+#m-import-local:hover .preference-item-hint {
+    color: #f4c25e !important;
+}
+
+.ty-preferences .window-content {
+    color: var(--control-text-color);
+    background-color: #141b28;
+}
+.ty-preferences .window-header {
+    background-color: #141b28;
+}
+.ty-preferences .nav-group-item.active {
+    color: #f4c25e;
+    background-color: #090c11;
+}
+.unibody-window .window-header h2 {
+    color: #fff;
+}
+.unibody-window .window-header-back .icon {
+    color: #fff !important;
+}
+
+input:not([type=range]):not([type=color]):hover,
+input:not([type=range]):not([type=color]):focus {
+    caret-color: #f4c25e;
+    border: 1px solid #f4c25e;
+    border-color: #f4c25e!important;
+    box-shadow: none;
+    animation: none;
+    -webkit-animation: none;
+}
+
+.input-group table tr td {
+    background: #141b28;
+}
+
+#recent-file-panel-action-btn {
+    color: var(--control-text-color);
+    background-color: transparent !important;
+    border: 1px solid var(--control-text-color);
+}
+
+.btn:hover,
+#recent-file-panel-action-btn:hover,
+#recent-file-panel-action-btn:focus {
+    color: #f4c25e !important;
+    background: #090c11 !important;
+    border-color: #f4c25e !important;
+    outline-color: #f4c25e !important;
+}
+
+button.btn-default {
+    color: var(--control-text-color) !important;
+    background: transparent;
+}
+
+.btn-default,
+.btn-primary {
+    border: 1px solid var(--control-text-color) !important;
+}
+
+.about-content-slogon,
+.about-content-meta {
+    color: #dedede;
+}
+.about-content-slogon span {
+    color: #f4c25e !important;
+}
